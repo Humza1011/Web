@@ -1,0 +1,182 @@
+#title {
+  background-color: #ff4c68;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2.75rem
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 18%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  margin-left: 50px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+
+.Intro {
+  color: white;
+  font-weight: 800;
+}
+
+.iphone {
+  transform: rotate(15deg);
+  position: absolute;
+}
+
+.iphone-container{
+  padding-left: 5%;
+}
+
+@media (max-width: 991px)  {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+
+  .iphone-container{
+    text-align: center;
+  }
+
+  .Intro{
+    text-align: center;
+  }
+}
+
+@media (min-width: 991px) {
+  #title{
+      padding-bottom: 80px;
+  }
+}
+
+.dwnld-btn {
+  margin: 5% 3% 0 2%;
+  padding: 12px 20px;
+}
+.dwnld-btn2 {
+  margin: 2%;
+  padding: 12px 20px;
+}
+
+.abc{
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#features {
+  text-align: center;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+  /* bottom: 120px; */
+}
+
+.features-container {
+  padding: 10%;
+}
+.features-column{
+  padding: 30px 60px;
+  font-family: "Montserrat"
+}
+
+.feature-icon{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+    padding: 8% 11%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+width: 14%;
+margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px 6%;
+  text-align: center;
+}
+
+.crd {
+  margin: 30px 8%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 8% 15%;
+}
+
+#footer{
+  padding: 40px 0;
+  text-align: center;
+}
+
+.icon-social{
+  padding: 25px 10px;
+}
+
+/* .crd-body{
+  margin-top: 50px;
+} */
